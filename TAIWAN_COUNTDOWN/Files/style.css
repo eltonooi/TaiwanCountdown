@@ -1,0 +1,48 @@
+/*
+Elton (Taiwan Countdown) - 2th Dec 2024
+flight on 23rd Dec 2024
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('Taiwan.png'); /* Replace with your image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.countdown-container {
+    background-color: rgba(145, 145, 145,0.4);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+#countdown {
+    display: flex;
+    justify-content: space-around;
+}
+
+.countdown-item {
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.countdown-item p {
+    font-size: 36px;
+    margin: 0;
+}
+
+.countdown-item span {
+    font-size: 18px;
+    display: block;
+}
+
